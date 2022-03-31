@@ -6,6 +6,7 @@
 注：python3.8已经从botocore.vendored.requests模块中移除了post方法！  
 2.2 配置环境变量  
 - 配置 > 环境变量
+![avatar](https://raw.githubusercontent.com/tanxw123123/aws/master/picture/01.jpg)
 2.3 编写代码（通过代码发送到telegram告警）
 编辑好代码点击deploy保存！
 ```
