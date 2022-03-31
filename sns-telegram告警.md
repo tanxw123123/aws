@@ -3,12 +3,12 @@
 # 2. 创建lambda函数  
 2.1 创建函数  
 - 转到AWS管理控制台> Lambda> 函数 >创建函数。给函数命名，然后选择Python 3.7运行时。  
-注：python3.8已经从botocore.vendored.requests模块中移除了post方法！  
-2.2 配置环境变量  
-- 配置 > 环境变量  
+注：python3.8已经从botocore.vendored.requests模块中移除了post方法！   
+2.2 配置环境变量   
+- 配置 > 环境变量 > 填写机器人token和群组id    
 ![avatar](https://raw.githubusercontent.com/tanxw123123/aws/master/picture/01.jpg)  
 2.3 编写代码（通过代码发送到telegram告警）  
-编辑好代码点击deploy保存！  
+- 编辑好代码点击deploy保存！  
 ```
 import json
 import os
