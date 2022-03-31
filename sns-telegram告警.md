@@ -7,8 +7,8 @@
 2.2 配置环境变量  
 - 配置 > 环境变量
 ![avatar](https://raw.githubusercontent.com/tanxw123123/aws/master/picture/01.jpg)
-2.3 编写代码（通过代码发送到telegram告警）
-编辑好代码点击deploy保存！
+2.3 编写代码（通过代码发送到telegram告警）  
+编辑好代码点击deploy保存！  
 ```
 import json
 import os
