@@ -1,6 +1,6 @@
-1. 创建sns主题  
+# 1. 创建sns主题  
 - 转到AWS管理控制台>简单通知服务>主题> 创建主题。给它起一个名字，然后单击“创建主题”，我这里选择标准类型。  
-2. 创建lambda函数  
+# 2. 创建lambda函数  
 2.1 创建函数  
 - 转到AWS管理控制台> Lambda> 函数 >创建函数。给函数命名，然后选择Python 3.7运行时。  
 注：python3.8已经从botocore.vendored.requests模块中移除了post方法！  
@@ -59,4 +59,8 @@ def lambda_handler(event, context):
         raise e
 
 ```
+2.4 添加触发器  
+选择SNS，选择我们上面创建的sns主题  
+
+# 3. 测试通过sns主题发布消息  
 
